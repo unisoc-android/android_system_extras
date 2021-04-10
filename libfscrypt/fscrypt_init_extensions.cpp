@@ -89,6 +89,7 @@ int fscrypt_set_directory_policy(const char* dir)
         "data", "user", "user_de",
         "apex", "preloads", "app-staging",
         "gsi",
+        "ylog",
     };
     std::string prefix = "/data/";
     for (const auto& d: directories_to_exclude) {
